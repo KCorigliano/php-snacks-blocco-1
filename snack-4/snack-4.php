@@ -5,7 +5,7 @@ $randomNum = [];
 while (count($randomNum)<16) { 
     $num = rand(1, 100);
     if (!in_array($num, $randomNum)) {
-        $randomNum[] += $num;
+        $randomNum[] = $num;
     }
 };
 
