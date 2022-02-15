@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+}
+
+.match{
+    width: 500px;
+    margin: 15px auto;
+    background-color: #ccc;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.match > p{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row div p:first-child{
+    font-weight: bold;
+}
