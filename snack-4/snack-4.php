@@ -2,7 +2,7 @@
 
 $randomNum = [];
 
-while (count($randomNum)<16) { 
+while (count($randomNum)<15) { 
     $num = rand(1, 100);
     if (!in_array($num, $randomNum)) {
         $randomNum[] = $num;
